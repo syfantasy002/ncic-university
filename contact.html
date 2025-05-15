@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - New Canaan International College</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="NCIC Logo" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academics.html">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admission.html">Admission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="campus.html">Campus Life</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" style="background-image: url('images/contact_banner.jpg');">
+        <div class="container">
+            <div class="page-banner-content">
+                <h1>Contact Us</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="contact-info-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>223 University Avenue<br>Bishkek, Kyrgyzstan</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn btn-outline-primary mt-3">Get Directions</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="contact-info-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>Main Office: +996 (312) 544112<br>Admissions: +996 (312) 544113</p>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card h-100">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>General Inquiries: info@ncic.edu.kg<br>Admissions: admissions@ncic.edu.kg<br>Career Services: careers@ncic.edu.kg</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <p class="mb-4">Have questions about our programs, campus life, or admission process? Fill out the form, and our team will get back to you as soon as possible.</p>
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Full Name *</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <select class="form-select" id="subject" required>
+                                    <option value="" selected disabled>Select Subject</option>
+                                    <option value="Admission">Admission Inquiry</option>
+                                    <option value="Programs">Academic Programs</option>
+                                    <option value="Financial">Financial Aid</option>
+                                    <option value="Campus">Campus Tour</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="privacy-policy" required>
+                            <label class="form-check-label" for="privacy-policy">
+                                I agree to the processing of my personal data in accordance with the privacy policy.
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container rounded shadow">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11667.022340252048!2d74.58054301906871!3d42.87472397215743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dc91b3c881%3A0x492ebaf57cdee27d!2sBishkek%2C%20Kyrgyzstan!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Our Departments</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="department-card h-100">
+                        <h3>Admissions Office</h3>
+                        <p><strong>Contact:</strong> Dr. Michael Johnson</p>
+                        <p><strong>Phone:</strong> +996 (312) 544113</p>
+                        <p><strong>Email:</strong> admissions@ncic.edu.kg</p>
+                        <p class="mt-3">For inquiries about application procedures, eligibility criteria, and admission decisions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="department-card h-100">
+                        <h3>International Student Office</h3>
+                        <p><strong>Contact:</strong> Ms. Sophia Chen</p>
+                        <p><strong>Phone:</strong> +996 (312) 544114</p>
+                        <p><strong>Email:</strong> international@ncic.edu.kg</p>
+                        <p class="mt-3">For visa assistance, international student services, and cultural integration programs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="department-card h-100">
+                        <h3>Student Affairs</h3>
+                        <p><strong>Contact:</strong> Dr. Sarah Williams</p>
+                        <p><strong>Phone:</strong> +996 (312) 544115</p>
+                        <p><strong>Email:</strong> studentaffairs@ncic.edu.kg</p>
+                        <p class="mt-3">For student life concerns, housing, counseling services, and extracurricular activities.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="department-card h-100">
+                        <h3>Financial Aid Office</h3>
+                        <p><strong>Contact:</strong> Mr. David Kim</p>
+                        <p><strong>Phone:</strong> +996 (312) 544116</p>
+                        <p><strong>Email:</strong> financialaid@ncic.edu.kg</p>
+                        <p class="mt-3">For scholarships, grants, tuition payment plans, and financial assistance options.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="department-card h-100">
+                        <h3>Career Services</h3>
+                        <p><strong>Contact:</strong> Ms. Emily Rodriguez</p>
+                        <p><strong>Phone:</strong> +996 (312) 544117</p>
+                        <p><strong>Email:</strong> careers@ncic.edu.kg</p>
+                        <p class="mt-3">For internship opportunities, career counseling, job placement, and alumni networking.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="department-card h-100">
+                        <h3>IT Support</h3>
+                        <p><strong>Contact:</strong> IT Help Desk</p>
+                        <p><strong>Phone:</strong> +996 (312) 544118</p>
+                        <p><strong>Email:</strong> itsupport@ncic.edu.kg</p>
+                        <p class="mt-3">For technical support, account access issues, and campus technology assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the visiting hours for campus tours?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Campus tours are available Monday through Friday from 10:00 AM to 3:00 PM. We also offer virtual tours for international students or those unable to visit in person. To schedule a tour, please contact our Admissions Office at least 2 days in advance.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I request official university documents?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    To request official transcripts, enrollment verification, or other university documents, please submit a request through our student portal or contact the Registrar's Office at registrar@ncic.edu.kg. Processing typically takes 3-5 business days.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do I apply for on-campus housing?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    On-campus housing applications open in March for the following academic year. Current students should apply through the student portal, while new students will receive housing information with their admission packet. For more details, contact housing@ncic.edu.kg.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What transportation options are available to campus?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    NCIC is accessible by public transportation, with several bus routes stopping near campus. We also offer a free shuttle service from major transportation hubs. For students and staff, there is limited parking available with semester permits. International students arriving at the airport can request airport pickup services in advance.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How can I arrange a meeting with a faculty member?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    To meet with a faculty member, you can contact them directly via email or through their department office. Faculty email addresses are available in our online directory. For prospective students interested in specific programs, the Admissions Office can also help arrange meetings with relevant faculty members during campus visits.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2>Stay Updated with NCIC</h2>
+                    <p>Subscribe to our newsletter for the latest news, events, and updates.</p>
+                    <form class="newsletter-form mt-4">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your Email Address" required>
+                            <button type="submit" class="btn btn-light">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="images/logo.png" alt="NCIC Logo" height="60" class="mb-4">
+                    <p>New Canaan International College is dedicated to fostering academic excellence, innovation, and global citizenship in a diverse and supportive learning environment.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                        <li><a href="campus.html">Campus Life</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <h4>Academics</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Undergraduate Programs</a></li>
+                        <li><a href="#">Graduate Programs</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 223 University Avenue, Bishkek, Kyrgyzstan</li>
+                        <li><i class="fas fa-phone"></i> +996 (312) 544112</li>
+                        <li><i class="fas fa-envelope"></i> info@ncic.edu.kg</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; 2023 New Canaan International College. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="legal-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

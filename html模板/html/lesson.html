@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Wordpress For Beginners - Master Wordpress Quickly | Edustar</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="media-coder" />
+        <meta name="description" content="Study any topic, anytime. explore thousands of courses for the lowest price ever!" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/system/favicon.png">
+
+        <link rel="stylesheet" href="assets/css/jquery.webui-popover.min.css" />
+        <link rel="stylesheet" href="assets/css/slick.css" />
+        <link rel="stylesheet" href="assets/css/slick-theme.css" />
+        <!-- font awesome 5 -->
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/lessons/css/custom.css" />
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+        <!-- Lesson page specific styles are here -->
+        <style type="text/css">
+            body {
+                background-color: #fff !important;
+            }
+            .card {
+                border-radius: 0px !important;
+                background-color: #f7f8fa !important;
+                border: 0px !important;
+            }
+            .course_card {
+                padding: 0px;
+                background-color: #f7f8fa;
+            }
+            .course_container {
+                background-color: #fff !important;
+            }
+            .course_col {
+                padding: 0px;
+            }
+            .course_header_col {
+                background-color: #29303b;
+                color: #fff;
+                padding: 15px 10px 10px;
+            }
+            .course_header_col img {
+                padding: 0px 0px;
+            }
+            .course_btn {
+                color: #95979a;
+                border: 1px solid #95979a;
+                padding: 7px 10px;
+            }
+            .course_btn:hover {
+                color: #fff;
+                border: 1px solid #fff;
+            }
+            .lesson_duration {
+                border-radius: 5px;
+                padding-top: 8px;
+                color: #5c5d61;
+                font-size: 13px;
+                font-weight: 100;
+            }
+            .quiz-card {
+                border: 1px solid #dcdddf !important;
+            }
+            .bg-quiz-result-info {
+                background-color: #007791 !important;
+                padding: 13px !important;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body class="gray-bg">
+        <div class="container-fluid course_container">
+            <!-- Top bar -->
+            <div class="row">
+                <div class="col-md-12 col-lg-7 col-xl-9 course_header_col">
+                    <h5><img src="assets/images/system/logo-light-sm.png" height="25" /> | Wordpress for Beginners - Master Wordpress Quickly</h5>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-3 course_header_col text-right">
+                    <a href="javascript::" class="course_btn" onclick="toggle_lesson_view()"><i class="fa fa-arrows-alt-h"></i></a>
+                    <a href="my_courses.html" class="course_btn"> <i class="fa fa-chevron-left"></i> My courses</a>
+                    <a href="course-details.html" class="course_btn">Course details <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="row" id="lesson-container">
+                <!-- Course content, video, quizes, files starts-->
+                <div class="col-lg-9 order-md-1 course_col" id="video_player_area">
+                    <!-- <div class="" style="background-color: #333;"> -->
+                    <div class="">
+                        <!-- If the video is youtube video -->
+                        <!------------- PLYR.IO ------------>
+                        <link rel="stylesheet" href="assets/global/plyr/plyr.css" />
+                        <div class="plyr__video-embed" id="player">
+                            <iframe
+                                height="500"
+                                src="#" sandbox=""
+                                allowfullscreen
+                                allowtransparency
+                                allow="autoplay"
+                            ></iframe>
+                        </div>
+
+                        <script src="assets/global/plyr/plyr.js"></script>
+                        <script>
+                            const player = new Plyr("#player");
+                        </script>
+                        <!------------- PLYR.IO ------------>
+
+                        <!-- If the video is Amazon S3 video -->
+                    </div>
+
+                    <div class="" style="margin: 20px 0;" id="lesson-summary">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Note:</h5>
+                                <p class="card-text">
+                                    We created this great tutorial for our clients, and would like to share it with anyone who finds it useful. This tutorial will show you the basics of using a self-hosted WordPress installation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course content, video, quizes, files ends-->
+
+                <!-- Course sections and lesson selector sidebar starts-->
+                <div class="col-lg-3 order-md-2 course_col" id="lesson_list_area">
+                    <div class="text-center" style="margin: 12px 10px;">
+                        <h5>Course content</h5>
+                    </div>
+                    <div class="row" style="margin: 12px -1px;">
+                        <div class="col-12">
+                            <ul class="nav nav-tabs" id="lessonTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="section_and_lessons-tab" data-bs-toggle="tab" href="#section_and_lessons" role="tab" aria-controls="section_and_lessons" aria-selected="true">Lessons</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="lessonTabContent">
+                                <div class="tab-pane fade show active" id="section_and_lessons" role="tabpanel" aria-labelledby="section_and_lessons-tab">
+                                    <!-- Lesson Content starts from here -->
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card" style="margin: 0px 0px;">
+                                            <div class="card-header course_card" id="heading-2">
+                                                <button
+                                                    class="btn btn-link w-100 text-start d-grid"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse-2"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapse-2"
+                                                    style="color: #535a66; background: none; border: none; white-space: normal;"
+                                                    onclick="toggleAccordionIcon(this, '2')"
+                                                >
+                                                    <p class="w-100" style="color: #959aa2; font-size: 13px;">
+                                                        <span class="d-block-inline float-start">Section 1</span>
+                                                        <span style="float: right; font-weight: 100;" class="accordion_icon" id="accordion_icon_2">
+                                                            <i class="fa fa-minus"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-inline-block float-start text-start text-13px fw-500">Introduction</p>
+                                                </button>
+                                            </div>
+
+                                            <div id="collapse-2" class="collapse show" aria-labelledby="heading-2" data-parent="#accordionExample">
+                                                <div class="card-body" style="padding: 0px;">
+                                                    <table style="width: 100%;">
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #fff;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="2" onchange="" value="1" />
+                                                                    <label for="2"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="2"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    1: Introduction Wordpress.
+                                                                </a>
+
+                                                                <div class="lesson_duration">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                    10 Min
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #fff;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="310" onchange="" value="1" />
+                                                                    <label for="310"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="310"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    2: abc
+                                                                    <!-- <i class="fa fa-paperclip"></i> -->
+                                                                </a>
+
+                                                                <div class="lesson_duration"><i class="far fa-file-pdf"></i> Attachment</div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #e6f2f5;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="189" onchange="" value="1" />
+                                                                    <label for="189"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="189"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    3: Wordpress Basics Tutorial
+                                                                </a>
+
+                                                                <div class="lesson_duration">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                    12 Min
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="margin: 0px 0px;">
+                                            <div class="card-header course_card" id="heading-3">
+                                                <button
+                                                    class="btn btn-link w-100 text-start d-grid"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#collapse-3"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapse-3"
+                                                    style="color: #535a66; background: none; border: none; white-space: normal;"
+                                                    onclick="toggleAccordionIcon(this, '3')"
+                                                >
+                                                    <p class="w-100" style="color: #959aa2; font-size: 13px;">
+                                                        <span class="d-block-inline float-start">Section 2</span>
+                                                        <span style="float: right; font-weight: 100;" class="accordion_icon" id="accordion_icon_3">
+                                                            <i class="fa fa-plus"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="d-inline-block float-start text-start text-13px fw-500">Local Install - Install WordPress on your Computer</p>
+                                                </button>
+                                            </div>
+
+                                            <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionExample">
+                                                <div class="card-body" style="padding: 0px;">
+                                                    <table style="width: 100%;">
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #fff;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="196" onchange="" value="1" />
+                                                                    <label for="196"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="196"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    1: Wordpress plugins install
+                                                                </a>
+
+                                                                <div class="lesson_duration">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                    00:00
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #fff;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="197" onchange="" value="1" />
+                                                                    <label for="197"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="197"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    2: Install a New Theme
+                                                                    <!-- <i class="fa fa-paperclip"></i> -->
+                                                                </a>
+
+                                                                <div class="lesson_duration"><i class="far fa-file-word"></i> Attachment</div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #fff;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="198" onchange="" value="1" />
+                                                                    <label for="198"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="198"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    3: What is a Function WordPress
+                                                                    <!-- <i class="fa fa-paperclip"></i> -->
+                                                                </a>
+
+                                                                <div class="lesson_duration"><i class="fas fa-camera-retro"></i> Attachment</div>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr style="width: 100%; padding: 5px 0px; background-color: #fff;">
+                                                            <td style="text-align: left; padding: 7px 10px;">
+                                                                <div class="form-group">
+                                                                    <input type="checkbox" id="199" onchange="" value="1" />
+                                                                    <label for="199"></label>
+                                                                </div>
+
+                                                                <a
+                                                                    href="javascript:;"
+                                                                    id="199"
+                                                                    style="color: #444549; font-size: 14px; font-weight: 400;"
+                                                                >
+                                                                    4: Wordpress test quiz
+                                                                </a>
+
+                                                                <div class="lesson_duration"><i class="far fa-question-circle"></i> Quiz</div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Lesson Content ends from here -->
+                                </div>
+
+                                <!-- ZOOM LIVE CLASS TAB STARTS-->
+
+                                <div class="tab-pane fade" id="liveclass" role="tabpanel" aria-labelledby="liveclass-tab" style="text-align: center;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course sections and lesson selector sidebar ends-->
+            </div>
+        </div>
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/jquery.webui-popover.min.js"></script>
+        <script src="https://content.jwplatform.com/libraries/O7BMTay5.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/lessons/js/custom.js"></script>
+        <script>
+            function toggle_lesson_view() {
+                $("#lesson-container").toggleClass("justify-content-center");
+                $("#video_player_area").toggleClass("order-md-1");
+                $("#lesson_list_area").toggleClass("col-lg-5 order-md-1");
+            }
+        </script>
+
+       
+
+    </body>
+</html>

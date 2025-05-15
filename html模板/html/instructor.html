@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Instructor Page | Edustar</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="media-coder" />
+        <meta name="description" content="Study any topic, anytime. explore thousands of courses for the lowest price ever!" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/system/favicon.png">
+
+        <link rel="stylesheet" href="assets/css/jquery.webui-popover.min.css" />
+        <link rel="stylesheet" href="assets/css/slick.css" />
+        <link rel="stylesheet" href="assets/css/slick-theme.css" />
+
+        <!-- font awesome 5 -->
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+    </head>
+    <body class="gray-bg">
+        <section class="menu-area bg-white">
+            <div class="container-xl">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <ul class="mobile-header-buttons">
+                        <li>
+                            <a class="mobile-nav-trigger" href="#mobile-primary-nav">Menu<span></span></a>
+                        </li>
+                        <li>
+                            <a class="mobile-search-trigger" href="#mobile-search">Search<span></span></a>
+                        </li>
+                    </ul>
+
+                    <a href="index.html" class="navbar-brand" href="#">
+                        <img src="assets/images/system/logo-dark.png" alt="" height="35" />
+                    </a>
+
+                    <div class="main-nav-wrap">
+                        <div class="mobile-overlay"></div>
+                        <style type="text/css">
+                            @media only screen and (max-width: 767px) {
+                                .category.corner-triangle.top-left.pb-0.is-hidden {
+                                    display: none !important;
+                                }
+                                .sub-category.is-hidden {
+                                    display: none !important;
+                                }
+                            }
+                        </style>
+
+                        <ul class="mobile-main-nav">
+                            <div class="mobile-menu-helper-top"></div>
+
+                            <li class="has-children text-nowrap fw-bold">
+                                <a href="">
+                                    <i class="fas fa-th d-inline text-20px"></i>
+                                    <span class="fw-500">Categories</span>
+                                    <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+                                </a>
+
+                                <ul class="category corner-triangle top-left is-hidden pb-0">
+                                    <li class="go-back">
+                                        <a href=""><i class="fas fa-angle-left"></i>Menu</a>
+                                    </li>
+
+                                    <li class="has-children">
+                                        <a href="course-grid.html" class="py-2">
+                                            <span class="icon"><i class="fas fa-pencil-alt"></i></span>
+                                            <span>Graphic Design</span>
+                                            <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+                                        </a>
+                                        <ul class="sub-category is-hidden">
+                                            <li class="go-back-menu">
+                                                <a href=""><i class="fas fa-angle-left"></i>Menu</a>
+                                            </li>
+                                            <li class="go-back">
+                                                <a href="">
+                                                    <i class="fas fa-angle-left"></i>
+                                                    <span class="icon"><i class="fas fa-pencil-alt"></i></span>
+                                                    Graphic Design
+                                                </a>
+                                            </li>
+                                            <li><a href="course-grid.html">Photoshop</a></li>
+                                            <li><a href="course-grid.html">Adobe Illustrator</a></li>
+                                            <li><a href="course-grid.html">Drawing</a></li>
+                                            <li><a href="course-grid.html">Logo Design</a></li>
+                                            <li><a href="course-grid.html">Digital Art</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="course-grid.html" class="py-2">
+                                            <span class="icon"><i class="fas fa-male"></i></span>
+                                            <span>User Experience</span>
+                                            <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+                                        </a>
+                                        <ul class="sub-category is-hidden">
+                                            <li class="go-back-menu">
+                                                <a href=""><i class="fas fa-angle-left"></i>Menu</a>
+                                            </li>
+                                            <li class="go-back">
+                                                <a href="">
+                                                    <i class="fas fa-angle-left"></i>
+                                                    <span class="icon"><i class="fas fa-male"></i></span>
+                                                    User Experience
+                                                </a>
+                                            </li>
+                                            <li><a href="course-grid.html">User Experience Design</a></li>
+                                            <li><a href="course-grid.html">Mobile App Design</a></li>
+                                            <li><a href="course-grid.html">User Interface</a></li>
+                                            <li><a href="course-grid.html">Design Thinking</a></li>
+                                            <li><a href="course-grid.html">Figma</a></li>
+                                            <li><a href="course-grid.html">Prototyping</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="all-category-devided mb-0 p-0">
+                                        <a href="course-grid.html" class="py-2"><span>Course Grid</span></a>
+                                        <a href="course-list.html" class="py-2"><span>Course List</span></a>
+                                        <a href="course-details.html" class="py-2"><span>Course Details</span></a>
+                                        <a href="compare.html" class="py-2"><span>Course Compare</span></a>
+                                        <a href="instructor.html" class="py-2"><span>Instructor Details</span></a>
+                                        <a href="my_courses.html" class="py-2"><span>My Course</span></a>
+                                        <a href="purchase_history.html" class="py-2"><span>Purchase History</span></a>
+                                        <a href="cart.html" class="py-2"><span>My Cart</span></a>
+                                        <a href="wishlist.html" class="py-2"><span>My Wishlist</span></a>
+                                        <a href="lesson.html" class="py-2"><span>Lesson Page</span></a>
+                                        <a href="user_profile.html" class="py-2"><span>Profile Page</span></a>
+                                        <a href="user_credentials.html" class="py-2"><span>Account Page</span>
+                                        </a>
+                                        <a href="login.html" class="py-2"><span>Login </span></a>
+                                        <a href="sign_up.html" class="py-2"><span>Sign Up </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <div class="mobile-menu-helper-bottom"></div>
+                        </ul>
+                    </div>
+
+                    <form class="inline-form" action="" method="get" style="width: 100%;">
+                        <div class="input-group search-box mobile-search">
+                            <input type="text" name="query" class="form-control" placeholder="Search for courses" />
+                            <div class="input-group-append">
+                                <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="instructor-box menu-icon-box">
+                        <div class="icon">
+                            <a
+                                href="user_profile.html"
+                                style="border: 1px solid transparent; margin: 0px; padding: 0px 10px; font-size: 14px; width: max-content; border-radius: 5px; height: 40px; line-height: 40px;"
+                            >
+                                Instructor
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="instructor-box menu-icon-box">
+                        <div class="icon">
+                            <a
+                                href="my_courses.html"
+                                style="border: 1px solid transparent; margin: 0px; padding: 0px 10px; font-size: 14px; width: max-content; border-radius: 5px; height: 40px; line-height: 40px;"
+                            >
+                                My courses
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="wishlist-box menu-icon-box" id="wishlist_items">
+                        <div class="icon">
+                            <a href=""><i class="far fa-heart"></i></a>
+                            <span class="number">3</span>
+                        </div>
+                        <div class="dropdown course-list-dropdown corner-triangle top-right">
+                            <div class="list-wrapper">
+                                <div class="item-list">
+                                    <ul>
+                                        <li>
+                                            <div class="item clearfix">
+                                                <div class="item-image">
+                                                    <a href="">
+                                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_4.jpg" alt="" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                                <div class="item-details">
+                                                    <a href="course-details.html">
+                                                        <div class="course-name">Character Art School: Complete Character Drawing Course</div>
+                                                        <div class="instructor-name">
+                                                            By John David , By Olivia Emily
+                                                        </div>
+
+                                                        <div class="item-price">
+                                                            <span class="current-price">$70</span>
+                                                        </div>
+                                                    </a>
+                                                    <button type="button" id="4" onclick="handleCartItems(this)" class="addedToCart">
+                                                        Added to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item clearfix">
+                                                <div class="item-image">
+                                                    <a href="">
+                                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_5.jpg" alt="" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                                <div class="item-details">
+                                                    <a href="course-details.html">
+                                                        <div class="course-name">The Complete Sketch 5 Course - Design Apps & Websites 2021</div>
+                                                        <div class="instructor-name">
+                                                            By John David
+                                                        </div>
+
+                                                        <div class="item-price">
+                                                            <span class="current-price">$90</span>
+                                                        </div>
+                                                    </a>
+                                                    <button type="button" id="5" onclick="handleCartItems(this)" class="addedToCart">
+                                                        Added to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item clearfix">
+                                                <div class="item-image">
+                                                    <a href="">
+                                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_7.jpg" alt="" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                                <div class="item-details">
+                                                    <a href="course-details.html">
+                                                        <div class="course-name">UI/UX design with Adobe XD: Design & Prototype a Mobile App</div>
+                                                        <div class="instructor-name">
+                                                            By John David
+                                                        </div>
+
+                                                        <div class="item-price">
+                                                            <span class="current-price">$199</span>
+                                                        </div>
+                                                    </a>
+                                                    <button type="button" id="7" onclick="handleCartItems(this)" class="">
+                                                        Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-footer">
+                                    <a href="wishlist.html">Go to wishlist</a>
+                                </div>
+                            </div>
+                            <div class="empty-box text-center d-none">
+                                <p>Your wishlist is empty.</p>
+                                <a href="">Explore courses</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cart-box menu-icon-box" id="cart_items">
+                        <div class="icon">
+                            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <span class="number">3</span>
+                        </div>
+
+                        <!-- Cart Dropdown goes here -->
+                        <div class="dropdown course-list-dropdown corner-triangle top-right" style="display: none;">
+                            <!-- Just remove the display none from the css to make it work -->
+                            <div class="list-wrapper">
+                                <div class="item-list">
+                                    <ul>
+                                        <li>
+                                            <div class="item clearfix">
+                                                <div class="item-image">
+                                                    <a href="">
+                                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_4.jpg" alt="" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                                <div class="item-details">
+                                                    <a href="">
+                                                        <div class="course-name">Character Art School: Complete Character Drawing Course</div>
+                                                        <div class="instructor-name">John David</div>
+                                                        <div class="item-price">
+                                                            <span class="current-price">$70</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item clearfix">
+                                                <div class="item-image">
+                                                    <a href="">
+                                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_5.jpg" alt="" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                                <div class="item-details">
+                                                    <a href="">
+                                                        <div class="course-name">The Complete Sketch 5 Course - Design Apps & Websites 2021</div>
+                                                        <div class="instructor-name">John David</div>
+                                                        <div class="item-price">
+                                                            <span class="current-price">$90</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item clearfix">
+                                                <div class="item-image">
+                                                    <a href="">
+                                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_11.jpg" alt="" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                                <div class="item-details">
+                                                    <a href="">
+                                                        <div class="course-name">Adobe After Effects CC: Complete Course - Novice to Expert</div>
+                                                        <div class="instructor-name">John David</div>
+                                                        <div class="item-price">
+                                                            <span class="current-price">$30</span>
+                                                            <span class="original-price">$130</span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-footer">
+                                    <div class="cart-total-price clearfix">
+                                        <span>Total:</span>
+                                        <div class="float-end">
+                                            <span class="current-price">$190</span>
+                                            <!-- <span class="original-price">$94.99</span> -->
+                                        </div>
+                                    </div>
+                                    <a href="cart.html">Go to cart</a>
+                                </div>
+                            </div>
+                            <div class="empty-box text-center d-none">
+                                <p>Your cart is empty.</p>
+                                <a href="">Keep Shopping</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-box menu-icon-box">
+                        <div class="icon">
+                            <a href="javascript::">
+                                <img src="assets/images/uploads/user_image/placeholder.png" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                        <div class="dropdown user-dropdown corner-triangle top-right">
+                            <ul class="user-dropdown-menu">
+                                <li class="dropdown-user-info">
+                                    <a href="">
+                                        <div class="clearfix">
+                                            <div class="user-image float-start">
+                                                <img src="assets/images/uploads/user_image/placeholder.png" alt="" />
+                                            </div>
+                                            <div class="user-details">
+                                                <div class="user-name">
+                                                    <span class="hi">Hi,</span>
+                                                    Ben Hanson
+                                                </div>
+                                                <div class="user-email">
+                                                    <span class="email">student@example.com</span>
+                                                    <span class="welcome">Welcome back</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="user-dropdown-menu-item">
+                                    <a href="my_courses.html"><i class="far fa-gem"></i>My courses</a>
+                                </li>
+                                <li class="user-dropdown-menu-item">
+                                    <a href="wishlist.html"><i class="far fa-heart"></i>My wishlist</a>
+                                </li>
+                                <li class="user-dropdown-menu-item">
+                                    <a href="purchase_history.html"><i class="fas fa-shopping-cart"></i>Purchase history</a>
+                                </li>
+                                <li class="user-dropdown-menu-item">
+                                    <a href="user_profile.html"><i class="fas fa-user"></i>User profile</a>
+                                </li>
+
+                                <li class="dropdown-user-logout user-dropdown-menu-item"><a href="#">Log out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <span class="signin-box-move-desktop-helper"></span>
+                    <div class="sign-in-box btn-group d-none">
+                        <button type="button" class="btn btn-sign-in" data-toggle="modal" data-target="#signInModal">Log In</button>
+
+                        <button type="button" class="btn btn-sign-up" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                    </div>
+                    <!--  sign-in-box end -->
+                </nav>
+            </div>
+        </section>
+      
+        <section class="instructor-header-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-xl-6 order-last order-lg-first text-md-start text-center pt-4 ps-0">
+                        <h4 class="user-type">Instructor</h4>
+                        <h1 class="instructor-name">Dave Franco</h1>
+                        <h2 class="instructor-title"></h2>
+                        <p class="text-12px mt-3">
+                            1 Students enrolled
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 order-first order-lg-last text-center">
+                        <img class="radius-10" src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg" alt="" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instructor-details-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="order-last order-lg-first col-lg-7 col-xl-6 bg-white radius-8 py-3 px-4">
+                        <div class="w-100">
+                            <h4 class="fw-700">About me</h4>
+
+                            <div class="biography-content-box view-more-parent">
+                                <div class="view-more" onclick="viewMore(this,'hide')"><b>Show full biography</b></div>
+                                <div class="biography-content">
+                                    <p xss="removed">
+                                        Hi, I'm Dave! I have been identified as one of the Edustar Top Instructors and all my premium courses have recently earned them best-selling status for outstanding performance and student
+                                        satisfaction.
+                                    </p>
+                                    <p xss="removed">
+                                        I'm a full-stack web developer and designer with a passion for building beautiful things from scratch. I've been building websites and apps since 2007 and also have a Master's degree in Engineering.
+                                    </p>
+                                    <p xss="removed">
+                                        It was in college where I first discovered my passion for teaching and helping others by sharing all I knew. And that passion brought me to Udemy in 2015, where my students love the fact that I take
+                                        the time to explain important concepts in a way that everyone can easily understand.
+                                    </p>
+                                    <p xss="removed">
+                                        <strong xss="removed"><em xss="removed">Do you want to learn how to build awesome websites with advanced HTML and CSS?</em></strong>
+                                    </p>
+                                    <p xss="removed">
+                                        <strong xss="removed"><em xss="removed">Looking for a complete JavaScript course that takes you from beginner to advanced developer?</em></strong>
+                                    </p>
+                                    <p xss="removed">
+                                        <strong xss="removed"><em xss="removed">Or maybe you want to build modern and fast back-end applications with Node.js?</em></strong>
+                                    </p>
+                                    <p xss="removed">Then don't waste your time with random tutorials or incomplete videos. All my courses are easy-to-follow, all-in-one packages that will take your skills to the next level.</p>
+                                    <p xss="removed"><em xss="removed">These courses are exactly the courses I wish I had when I was first getting into web development!</em></p>
+                                    <p xss="removed">So see for yourself, enroll in one of my courses (or all of them :D) and join my 500,000+ happy students today.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 d-none d-lg-block mw-30px"></div>
+                    <div class="order-first order-lg-last col-lg-4 col-xl-3">
+                        <div class="row bg-white px-3 py-4 radius-8">
+                            <div class="col-4 text-center">
+                                <h5 class="fw-700">1</h5>
+                                <p class="text-12px fw-700 text-muted">Total students</p>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h5 class="fw-700">6</h5>
+                                <p class="text-12px fw-700 text-muted">Courses</p>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h5 class="fw-700">4</h5>
+                                <p class="text-12px fw-700 text-muted">Reviews</p>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="instructor-social-links">
+                                    <a href="https://www.facebook.com/dave-franco" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+
+                                    <a href="https://www.twitter.com/dave-franco" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+
+                                    <a href="https://www.linkedin.com/dave-franco" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-xl-10">
+                    <h3 class="course-carousel-title mb-4 px-2">Courses</h3>
+                    <div class="course-carousel">
+                        <div class="course-box-wrap">
+                            <a href="course-details.html" class="has-popover">
+                                <div class="course-box">
+                                    <div class="course-image">
+                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_1.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="course-details">
+                                        <h5 class="title">Wordpress for Beginners - Master Wordpress Quickly</h5>
+                                        <div class="rating">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <div class="d-inline-block">
+                                                <span class="text-dark ms-1 text-15px">(5)</span>
+                                                <span class="text-dark text-12px text-muted ms-2">(1 Reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex text-dark">
+                                            <div class="">
+                                                <i class="far fa-clock text-14px"></i>
+                                                <span class="text-muted text-12px">01:10:09 Hours</span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <i class="far fa-list-alt text-14px"></i>
+                                                <span class="text-muted text-12px">15 Lectures</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <span class="badge badge-sub-warning text-11px">Beginner</span>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <button
+                                                    class="brn-compare-sm"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'compare.html');"
+                                                >
+                                                    <i class="fas fa-balance-scale"></i> Compare
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <hr class="divider-1" />
+
+                                        <div class="d-block">
+                                            <div class="floating-user d-inline-block">
+                                                <img
+                                                    style="margin-left: 0px;"
+                                                    class="position-absolute"
+                                                    src="assets/images/uploads/user_image/48a153e87c587ffe79d6e8609e59124b.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="John David"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                                <img
+                                                    style="margin-left: 17px;"
+                                                    class="position-absolute"
+                                                    src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="Dave Franco"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                            </div>
+
+                                            <p class="price text-right d-inline-block float-end">Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-box-wrap">
+                            <a href="course-details.html" class="has-popover">
+                                <div class="course-box">
+                                    <div class="course-image">
+                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_2.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="course-details">
+                                        <h5 class="title">Web Design for Web Developers: Build Beautiful Websites!</h5>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="d-inline-block">
+                                                <span class="text-dark ms-1 text-15px">(0)</span>
+                                                <span class="text-dark text-12px text-muted ms-2">(0 Reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex text-dark">
+                                            <div class="">
+                                                <i class="far fa-clock text-14px"></i>
+                                                <span class="text-muted text-12px">00:29:04 Hours</span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <i class="far fa-list-alt text-14px"></i>
+                                                <span class="text-muted text-12px">12 Lectures</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <span class="badge badge-sub-warning text-11px">Beginner</span>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <button
+                                                    class="brn-compare-sm"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'compare.html');"
+                                                >
+                                                    <i class="fas fa-balance-scale"></i> Compare
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <hr class="divider-1" />
+
+                                        <div class="d-block">
+                                            <div class="floating-user d-inline-block">
+                                                <img
+                                                    style="margin-left: 0px;"
+                                                    class="position-absolute"
+                                                    src="assets/images/uploads/user_image/48a153e87c587ffe79d6e8609e59124b.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="John David"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                                <img
+                                                    style="margin-left: 17px;"
+                                                    class="position-absolute"
+                                                    src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="Dave Franco"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                            </div>
+
+                                            <p class="price text-right d-inline-block float-end">$100</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-box-wrap">
+                            <a href="course-details.html" class="has-popover">
+                                <div class="course-box">
+                                    <div class="course-image">
+                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_3.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="course-details">
+                                        <h5 class="title">Adobe Illustrator CC – Advanced Training Course</h5>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="d-inline-block">
+                                                <span class="text-dark ms-1 text-15px">(0)</span>
+                                                <span class="text-dark text-12px text-muted ms-2">(0 Reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex text-dark">
+                                            <div class="">
+                                                <i class="far fa-clock text-14px"></i>
+                                                <span class="text-muted text-12px">00:53:01 Hours</span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <i class="far fa-list-alt text-14px"></i>
+                                                <span class="text-muted text-12px">13 Lectures</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <span class="badge badge-sub-warning text-11px">Advanced</span>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <button
+                                                    class="brn-compare-sm"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'compare.html');"
+                                                >
+                                                    <i class="fas fa-balance-scale"></i> Compare
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <hr class="divider-1" />
+
+                                        <div class="d-block">
+                                            <div class="floating-user d-inline-block">
+                                                <img
+                                                    style="margin-left: 0px;"
+                                                    class="position-absolute"
+                                                    src="assets/images/uploads/user_image/48a153e87c587ffe79d6e8609e59124b.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="John David"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                                <img
+                                                    style="margin-left: 17px;"
+                                                    class="position-absolute"
+                                                    src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="Dave Franco"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                            </div>
+
+                                            <p class="price text-right d-inline-block float-end">$80</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-box-wrap">
+                            <a href="course-details.html" class="has-popover">
+                                <div class="course-box">
+                                    <div class="course-image">
+                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_12.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="course-details">
+                                        <h5 class="title">Learn to draw fashion with Adobe Illustrator CC - Beginners</h5>
+                                        <div class="rating">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="d-inline-block">
+                                                <span class="text-dark ms-1 text-15px">(4)</span>
+                                                <span class="text-dark text-12px text-muted ms-2">(1 Reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex text-dark">
+                                            <div class="">
+                                                <i class="far fa-clock text-14px"></i>
+                                                <span class="text-muted text-12px">00:43:50 Hours</span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <i class="far fa-list-alt text-14px"></i>
+                                                <span class="text-muted text-12px">7 Lectures</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <span class="badge badge-sub-warning text-11px">Beginner</span>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <button
+                                                    class="brn-compare-sm"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'compare.html');"
+                                                >
+                                                    <i class="fas fa-balance-scale"></i> Compare
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <hr class="divider-1" />
+
+                                        <div class="d-block">
+                                            <div class="floating-user d-inline-block">
+                                                <img
+                                                    src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="Dave Franco"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                            </div>
+
+                                            <p class="price text-right d-inline-block float-end"><small>$50</small>$20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-box-wrap">
+                            <a href="course-details.html" class="has-popover">
+                                <div class="course-box">
+                                    <div class="course-image">
+                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_13.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="course-details">
+                                        <h5 class="title">Front End Web Development Ultimate Course 2021</h5>
+                                        <div class="rating">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="d-inline-block">
+                                                <span class="text-dark ms-1 text-15px">(3)</span>
+                                                <span class="text-dark text-12px text-muted ms-2">(1 Reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex text-dark">
+                                            <div class="">
+                                                <i class="far fa-clock text-14px"></i>
+                                                <span class="text-muted text-12px">00:28:00 Hours</span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <i class="far fa-list-alt text-14px"></i>
+                                                <span class="text-muted text-12px">22 Lectures</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <span class="badge badge-sub-warning text-11px">Beginner</span>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <button
+                                                    class="brn-compare-sm"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'compare.html');"
+                                                >
+                                                    <i class="fas fa-balance-scale"></i> Compare
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <hr class="divider-1" />
+
+                                        <div class="d-block">
+                                            <div class="floating-user d-inline-block">
+                                                <img
+                                                    src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="Dave Franco"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                            </div>
+
+                                            <p class="price text-right d-inline-block float-end"><small>$110</small>$45</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-box-wrap">
+                            <a href="course-details.html" class="has-popover">
+                                <div class="course-box">
+                                    <div class="course-image">
+                                        <img src="assets/images/uploads/thumbnails/course_thumbnails/course_thumbnail_default_14.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                    <div class="course-details">
+                                        <h5 class="title">React and Typescript: Build a Portfolio Project</h5>
+                                        <div class="rating">
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star filled"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <div class="d-inline-block">
+                                                <span class="text-dark ms-1 text-15px">(2)</span>
+                                                <span class="text-dark text-12px text-muted ms-2">(1 Reviews)</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex text-dark">
+                                            <div class="">
+                                                <i class="far fa-clock text-14px"></i>
+                                                <span class="text-muted text-12px">00:16:40 Hours</span>
+                                            </div>
+                                            <div class="ms-3">
+                                                <i class="far fa-list-alt text-14px"></i>
+                                                <span class="text-muted text-12px">8 Lectures</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-3">
+                                            <div class="col-6">
+                                                <span class="badge badge-sub-warning text-11px">Beginner</span>
+                                            </div>
+                                            <div class="col-6 text-end">
+                                                <button
+                                                    class="brn-compare-sm"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'compare.html');"
+                                                >
+                                                    <i class="fas fa-balance-scale"></i> Compare
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <hr class="divider-1" />
+
+                                        <div class="d-block">
+                                            <div class="floating-user d-inline-block">
+                                                <img
+                                                    src="assets/images/uploads/user_image/0269091217f95c25ac4f77c1bd69879a.jpg"
+                                                    width="30px"
+                                                    data-bs-toggle="tooltip"
+                                                    data-bs-placement="top"
+                                                    title="Dave Franco"
+                                                    onclick="event.stopPropagation(); $(location).attr('href', 'instructor.html');"
+                                                />
+                                            </div>
+
+                                            <p class="price text-right d-inline-block float-end"><small>$40</small>$20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(function () {
+                if ($(".course-carousel")[0]) {
+                    $(".course-carousel").slick({
+                        dots: false,
+                        infinite: false,
+                        speed: 300,
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        swipe: false,
+                        touchMove: false,
+                        responsive: [
+                            { breakpoint: 840, settings: { slidesToShow: 2, slidesToScroll: 2 } },
+                            { breakpoint: 620, settings: { slidesToShow: 1, slidesToScroll: 1 } },
+                        ],
+                    });
+                }
+            });
+        </script>
+        <footer class="footer-area d-print-none bg-gray mt-5">
+            <div class="container-xl">
+                <div class="row mb-3">
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <h5 class="text-muted">Top categories</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1">
+                                <a class="link-secondary footer-hover-link" href="#">
+                                    Responsive Design
+                                    <span class="fw-700 text-end">(2)</span>
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-secondary footer-hover-link" href="#">
+                                    WordPress Theme
+                                    <span class="fw-700 text-end">(1)</span>
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-secondary footer-hover-link" href="#">
+                                    Adobe Illustrator
+                                    <span class="fw-700 text-end">(1)</span>
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-secondary footer-hover-link" href="#">
+                                    Drawing
+                                    <span class="fw-700 text-end">(1)</span>
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-secondary footer-hover-link" href="#">
+                                    Mobile App Design
+                                    <span class="fw-700 text-end">(1)</span>
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-secondary footer-hover-link" href="#">
+                                    Design Thinking
+                                    <span class="fw-700 text-end">(1)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <h5 class="text-muted">Useful links</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="course-grid.html">Courses</a></li>
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="sign_up.html">Sign up</a></li>
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <h5 class="text-muted">Help</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="about_us.html">About us</a></li>
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="privacy_policy.html">Privacy policy</a></li>
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="terms_and_condition.html">Terms and condition</a></li>
+                            <li class="mb-1"><a class="link-secondary footer-hover-link" href="refund_policy.html">Refund policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-3 order-sm-first">
+                        <img src="assets/images/system/logo-dark.png" width="130" />
+                        <small class="d-block mb-3 fw-600">Study any topic, anytime. explore thousands of courses for the lowest price ever!</small>
+
+                        <ul class="footer-social-link"></ul>
+                    </div>
+                </div>
+            </div>
+            <section class="border-top">
+                <div class="container-xl">
+                    <div class="row mt-3 py-1">
+                        <div class="col-6 col-sm-6 col-md-3 text-muted text-13px">
+                            &copy; 2025, All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板">网站模板</a>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3 d-none d-md-block"></div>
+                        <div class="col-6 col-sm-6 col-md-3 d-none d-md-block"></div>
+                        <div class="col-6 col-sm-6 col-md-3 text-center text-md-start">
+                            <select class="language_selector" onchange="switch_language(this.value)">
+                                <option value="arabic">Arabic</option>
+                                <option value="english" selected>English</option>
+                                <option value="french">French</option>
+                                <option value="german">German</option>
+                                <option value="hindi">Hindi</option>
+                                <option value="indonesian">Indonesian</option>
+                                <option value="japanese">Japanese</option>
+                                <option value="ru">Ru</option>
+                                <option value="spanish">Spanish</option>
+                                <option value="turkish">Turkish</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/jquery.webui-popover.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/jquery.form.min.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                $('[data-bs-toggle="tooltip"]').tooltip();
+            });
+        </script>
+
+        <script type="text/javascript">
+            function isTouchDevice() {
+                return "ontouchstart" in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+            }
+
+            function viewMore(element, visibility) {
+                if (visibility == "hide") {
+                    $(element).parent(".view-more-parent").addClass("expanded");
+                    $(element).remove();
+                } else if ($(element).hasClass("view-more")) {
+                    $(element).parent(".view-more-parent").addClass("expanded has-hide");
+                    $(element).removeClass("view-more").addClass("view-less").html("- View less");
+                } else if ($(element).hasClass("view-less")) {
+                    $(element).parent(".view-more-parent").removeClass("expanded has-hide");
+                    $(element).removeClass("view-less").addClass("view-more").html("+ View more");
+                }
+            }
+
+            //Event call after loading page
+            document.addEventListener(
+                "DOMContentLoaded",
+                function () {
+                    setTimeout(function () {
+                        $(".animated-loader").hide();
+                        $(".shown-after-loading").show();
+                    });
+                },
+                false
+            );
+        </script>
+    </body>
+</html>
